@@ -1,0 +1,2 @@
+name = "Philips"
+print(name)
