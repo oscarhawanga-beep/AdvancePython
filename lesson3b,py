@@ -1,0 +1,15 @@
+print("Kindly select an option. \n 1. Deposit \n 2.Send Money \n 3. Withdraw Money \n 4. Check Balance \n 5. Exit")
+option = int(input(" :"))
+
+if option == 1:
+    print("You have selected to deposit money")
+elif option == 2:
+    print("You have selected to send money")
+elif option == 3:
+    print("You have selected to withdraw money")
+elif option == 4:
+    print("You have selected to check your balance")
+elif option == 5:
+    print("You have selected to exit")
+else:
+    print("Please enter a valid option 1 to 5.")
